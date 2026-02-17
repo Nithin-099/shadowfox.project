@@ -9,16 +9,22 @@ This project documents a structured security assessment performed on a web appli
 🎯 Scope of Assessment
 
 ● Identify exposed network ports
+
 ● Discover hidden directories and endpoints
+
 ● Analyze unencrypted network traffic
+
 ● Document findings and remediation steps
 
 
 🛠 Tools Used
 
 ● Nmap – Port Scanning
+
 ● Dirb – Directory Brute-forcing
+
 ● Wireshark – Network Traffic Analysis
+
 ● Kali Linux
 
 
@@ -29,7 +35,9 @@ Method:
 
 Findings:
 ● Open HTTP/HTTPS ports
+
 ● Additional exposed service (if any)
+
 ● Service version detection
 
 
@@ -39,7 +47,9 @@ Findings:
 
 Findings:
 ● Hidden admin panel
+
 ● Backup directory
+
 ● Sensitive endpoints
 
 
@@ -47,22 +57,31 @@ Findings:
 
 Analysis Focus:
 ● HTTP requests & responses
+
 ● Unencrypted credentials 
+
 ● Cookie/session data
+
 ● Packet-level inspection
 
 
 🛑 Security Risks Identified
 ● Open unnecessary ports
+
 ● Exposed sensitive directories
+
 ● Transmission of data over HTTP (no encryption)
 
 
 🛡 Remediation Recommendations
 ● Close unused ports
+
 ● Disable directory indexing
+
 ● Enforce HTTPS with TLS
+
 ● Implement WAF
+
 ● Restrict admin panel access
 
 
@@ -84,8 +103,11 @@ This assessment was conducted under authorized internship supervision. The purpo
 
 Never:
 ❌ Put real domain name
+
 ❌ Upload sensitive captured packets
+
 ❌ Upload real credentials
+
 ❌ Mention company name (unless permitted)
 
 
